@@ -1,6 +1,6 @@
-import Link from '@/components/Link'
-import { PageSEO } from '@/components/SEO'
-import siteMetadata from '@/data/siteMetadata'
+import Link from '@/components/Link';
+import { PageSEO } from '@/components/SEO';
+import siteMetadata from '@/data/siteMetadata';
 
 export default function FourZeroFour() {
   return (
@@ -24,5 +24,5 @@ export default function FourZeroFour() {
         </div>
       </div>
     </>
-  )
+  );
 }
