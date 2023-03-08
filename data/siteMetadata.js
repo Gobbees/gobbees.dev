@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Gobbees',
   author: 'Giovanni Gobbi',
-  headerTitle: 'Giovanni Gobbi (Gobbees)',
+  headerTitle: 'Gobbees',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -26,11 +26,6 @@ const siteMetadata = {
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
     posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
-  },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
