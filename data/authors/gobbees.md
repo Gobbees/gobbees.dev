@@ -1,7 +1,7 @@
 ---
 name: Giovanni Gobbi
 avatar: /static/images/avatar.webp
-occupation: Software Builder 👷🏼‍♂️
+occupation: Software Engineer and Builder 👷🏼‍♂️
 company: Prime Video 📺
 email: gobbees@gmail.com
 twitter: https://twitter.com/Gobbees
