@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Personal space to share some of my thoughts. All opinions are my own.',
   language: 'en-us',
   theme: 'system',
-  siteUrl: 'https://gobbees.vercel.app',
+  siteUrl: 'https://gobbees.dev',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
@@ -19,4 +19,4 @@ const siteMetadata = {
   },
 };
 
-module.exports = siteMetadata;
+export default siteMetadata;
