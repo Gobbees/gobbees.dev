@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Gobbees',
   author: 'Giovanni Gobbi',
   headerTitle: 'Gobbees',
-  description: 'Personal space to share some of my thoughts',
+  description: 'Personal space to share some of my thoughts. All opinions are my own.',
   language: 'en-us',
   theme: 'system',
   siteUrl: 'https://gobbees.vercel.app',
