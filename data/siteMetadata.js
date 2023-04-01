@@ -15,7 +15,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com/in/Gobbees',
   locale: 'en-US',
   analytics: {
-    umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
+    umamiWebsiteId: 'f5d5ae94-cf38-4cbf-8e29-9a991c0e1397',
   },
 };
 

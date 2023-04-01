@@ -7,11 +7,12 @@ import '@fontsource/inter/variable-full.css';
 import { ThemeProvider } from 'next-themes';
 import Head from 'next/head';
 
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 
 import siteMetadata from '@/data/siteMetadata';
 import LayoutWrapper from '@/components/LayoutWrapper';
 import { ClientReload } from '@/components/ClientReload';
+import Analytics from '@/components/analytics';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 const isSocket = process.env.SOCKET;
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
+      <VercelAnalytics />
       <Analytics />
       <LayoutWrapper>
         <Component {...pageProps} />
