@@ -9,7 +9,7 @@ const UmamiScript = () => {
         async
         defer
         data-website-id={siteMetadata.analytics.umamiWebsiteId}
-        src="https://analytics.gobbees.dev/umami.js"
+        src="/api/umami/whatever.js"
       />
     </>
   );
