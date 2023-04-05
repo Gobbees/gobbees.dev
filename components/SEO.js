@@ -33,22 +33,22 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
 };
 
 export const PageSEO = ({ title, description }) => {
-  const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
-  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
+  // const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
+  // const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
   return (
     <CommonSEO
       title={title}
       description={description}
       ogType="website"
-      ogImage={ogImageUrl}
-      twImage={twImageUrl}
+      // ogImage={ogImageUrl}
+      // twImage={twImageUrl}
     />
   );
 };
 
 export const TagSEO = ({ title, description }) => {
-  const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
-  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
+  // const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
+  // const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner;
   const router = useRouter();
   return (
     <>
@@ -56,8 +56,8 @@ export const TagSEO = ({ title, description }) => {
         title={title}
         description={description}
         ogType="website"
-        ogImage={ogImageUrl}
-        twImage={twImageUrl}
+        // ogImage={ogImageUrl}
+        // twImage={twImageUrl}
       />
       <Head>
         <link

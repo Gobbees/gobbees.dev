@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: 'https://gobbees.dev',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
-  socialBanner: '/static/images/twitter-card.png',
+  // socialBanner: '/static/images/logo.png',
   email: 'me@gobbees.dev',
   github: 'https://github.com/Gobbees',
   twitter: 'https://twitter.com/Gobbees',
