@@ -6,6 +6,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system',
   siteUrl: 'https://gobbees.dev',
+  rss: '/rss.xml',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   // socialBanner: '/static/images/logo.png',
