@@ -84,12 +84,7 @@ export const BlogSEO = ({
   const router = useRouter();
   const publishedAt = new Date(date).toISOString();
   const modifiedAt = new Date(lastmod || date).toISOString();
-  let imagesArr =
-    images.length === 0
-      ? [siteMetadata.socialBanner]
-      : typeof images === 'string'
-      ? [images]
-      : images;
+  let imagesArr = images.length === 0 ? [] : typeof images === 'string' ? [images] : images;
 
   const featuredImages = imagesArr.map((img) => {
     return {
@@ -136,7 +131,7 @@ export const BlogSEO = ({
     description: summary,
   };
 
-  const twImageUrl = featuredImages[0].url;
+  const twImageUrl = featuredImages[0]?.url;
 
   return (
     <>
