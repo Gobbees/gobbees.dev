@@ -1,5 +1,5 @@
 import Link from '@/components/Link';
-import PageTitle from '@/components/PageTitle';
+import { PageTitle } from '@/components/post/Heading';
 import SectionContainer from '@/components/SectionContainer';
 import { BlogSEO } from '@/components/SEO';
 import Image from '@/components/Image';

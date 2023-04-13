@@ -1,13 +1,13 @@
 import Link from '@/components/Link';
-import PageTitle from '@/components/PageTitle';
+import { PageSubtitle, PageTitle } from '@/components/post/Heading';
 import SectionContainer from '@/components/SectionContainer';
 import { BlogSEO } from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import formatDate from '@/lib/utils/formatDate';
 import ScrollTopAndComment from '@/components/ScrollTopAndComment';
 
-export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { date, title } = frontMatter;
+export default function PostLayout({ frontMatter, next, prev, children }) {
+  const { date, title, summary, readingTime } = frontMatter;
 
   return (
     <SectionContainer>
@@ -16,7 +16,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
       <article>
         <div>
           <header>
-            <div className="space-y-1 border-b border-gray-200 pb-10 text-center dark:border-gray-700">
+            <div className="space-y-6 border-b border-gray-200 pb-10 text-center dark:border-gray-700">
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>
@@ -25,9 +25,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </dd>
                 </div>
               </dl>
-              <div>
-                <PageTitle>{title}</PageTitle>
-              </div>
+              <PageTitle text={title} />
+              <PageSubtitle text={`${summary} (${readingTime.text})`} />
             </div>
           </header>
           <div
